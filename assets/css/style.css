@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    background-color: #65696b;
+}
+
+header {
+    background-color: #030303;
+    height: 100%;
+
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    border-bottom: #26a4e7;
+}
+
+nav a {
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #26a4e7;
+    color: black;
+}
+
+h2 {
+    background-color: #030303;
+    color: white;
+
+}
+.container {
+    margin: 30px;
+}
+
+.column1 {
+    float: left;
+    width: 15%;
+    background-color: #26a4e7;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 85%;
+    background-color: #eaeaea;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    display: flex;
+}
+
+.biopic {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    float: left;
+}
+
+.projects {
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    width: 50%;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    background-color: #030303;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+  }
+  
+li {
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: #fff;
+}
+
