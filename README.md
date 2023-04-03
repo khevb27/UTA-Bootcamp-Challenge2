@@ -70,7 +70,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Links
 
-- Deployment Link:
+- Deployment Link: https://khevb27.github.io/UTA-Bootcamp-Challenge2/ 
 - GitHub Repository Link: https://github.com/khevb27/UTA-Bootcamp-Challenge2
 
 ----------------------------------------------------------------------
