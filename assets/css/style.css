@@ -48,6 +48,7 @@ h2 {
     margin: 30px;
 }
 
+
 .column1 {
     float: left;
     width: 15%;
@@ -81,7 +82,6 @@ h2 {
 }
 
 .projects {
-
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +93,11 @@ h2 {
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
+    flex: 0 0 400px;
+    width: 50%;
+}
+
+.card1 img {
     width: 100%;
 }
 
@@ -103,10 +108,6 @@ h2 {
     padding: 10px;
     flex: 0 0 400px;
     width: 50%;
-}
-
-.card1 img {
-    width: 100%;
 }
 
 .card img {
@@ -134,6 +135,11 @@ li {
     text-align: center;
 }
 
+​ol,
+ul {
+  list-style: none;
+}
+
 footer {
     padding: 20px;
     text-align: center;
@@ -141,3 +147,20 @@ footer {
     color: #fff;
 }
 
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
+}
